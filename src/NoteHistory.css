@@ -1,0 +1,52 @@
+/* src/styles/NoteHistory.css */
+
+.note-history-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-history-container h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.note-history-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note-history-container .list-group-item {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.note-history-container .list-group-item:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+}
+
+.note-history-container .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.note-history-container .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.note-history-container .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
